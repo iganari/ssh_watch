@@ -1,0 +1,3 @@
+sh   /etc/nodejs/ssh_watch/run/get_hostname.sh
+node /etc/nodejs/ssh_watch/run/send_msg-ssh_login.js $USER $SSH_CLIENT
+sh   /etc/nodejs/ssh_watch/run/modify_hostname.sh
